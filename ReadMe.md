@@ -1,8 +1,9 @@
 # The Forbidden Browser 🌴🍹
 
-blob:https://github.com/84edc5a4-900c-416d-a438-503dc135c35e
 
-Welcome to **The Forbidden Browser**, where security meets style in a 1950s tiki bar postcard aesthetic. Built for fun, fortified for safety.
+![The Forbidden Browser](https://github.com/84edc5a4-900c-416d-a438-503dc135c35e
+escape to the sun-soaked shores of nostalgia._
+
 
 ## 🧪 Features
 - Retro-inspired interface
