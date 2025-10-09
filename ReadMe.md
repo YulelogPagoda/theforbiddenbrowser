@@ -1,6 +1,6 @@
 # The Forbidden Browser 🌴🍹
 
-![The Forbidden Browser](https://your-image-hosting-url.com/forbidden-browser1-compatible escape to the sun-soaked shores of nostalgia._
+blob:https://github.com/84edc5a4-900c-416d-a438-503dc135c35e
 
 Welcome to **The Forbidden Browser**, where security meets style in a 1950s tiki bar postcard aesthetic. Built for fun, fortified for safety.
 
