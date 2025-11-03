@@ -11,6 +11,14 @@
 
 ---
 
+
+**First things first:**  
+This repo includes **`Snarf.ps1`**, a PowerShell script that demonstrates how to run **Edge WebView2 as its own browser instance**. It fetches a target URL and renders it using the WebView2 runtime, proving that WebView2 isn’t just a control—it can behave like a standalone browser when invoked programmatically.
+
+Example:
+powershell.exe -ExecutionPolicy Bypass -File .\snarf.ps1 -Url "https://www.slashdot.org" -Title "DR"
+
+
 ## 1) What is WebView2?
 
 **Microsoft Edge WebView2** is a control developers embed inside Win32/.NET/WinUI apps to render HTML/JS/CSS with the **Microsoft Edge (Chromium)** engine. It offers two distribution models:
