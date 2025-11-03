@@ -11,12 +11,15 @@
 
 ---
 
+## This has been submitted to MSRC as vulnerability that they identified as a product issue and the Edge team has said that they'll be putting CVEs from Edge as CVEs for EdgeWebview2 in the future.
 
 **First things first:**  
 This repo includes **`Snarf.ps1`**, a PowerShell script that demonstrates how to run **Edge WebView2 as its own browser instance**. It fetches a target URL and renders it using the WebView2 runtime, proving that WebView2 isn’t just a control—it can behave like a standalone browser when invoked programmatically.
 
 Example:
+```powershell
 powershell.exe -ExecutionPolicy Bypass -File .\snarf.ps1 -Url "https://www.slashdot.org" -Title "DR"
+```
 
 
 ## 1) What is WebView2?
