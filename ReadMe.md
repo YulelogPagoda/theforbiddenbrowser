@@ -36,6 +36,11 @@ Key points:
 
 ---
 
+To see what versions of EdgeWebView2 you're running right now:
+```powershell
+Get-CimInstance Win32_Process -Filter "Name like 'msedgewebview2.exe'" | Select-Object ProcessId, ParentProcessId, CommandLine
+```
+
 ## 2) Why Edge/Chrome CVEs usually affect WebView2
 
 WebView2’s runtime is **Chromium‑based**. Vulnerabilities in engines like **Blink**/**V8** (e.g., type confusion, JIT bugs, sandbox escapes) typically affect **Chrome**, **Edge**, and **WebView2** because they share core code. When Microsoft releases Edge Stable with security fixes, the **WebView2 Evergreen Runtime** receives the same underlying engine updates. Blocking or delaying those updates keeps apps running **older, exploitable** engines.
